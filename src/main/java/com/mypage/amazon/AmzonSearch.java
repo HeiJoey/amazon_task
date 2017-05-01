@@ -17,9 +17,6 @@ public class AmzonSearch {
 
     public static void main(String url)
     {
-        String os = System.getProperty("os.name").toLowerCase();
-        System.out.println(os);
-
         // Create a new instance of the browser
         WebDriver driver = new SafariDriver();
 
