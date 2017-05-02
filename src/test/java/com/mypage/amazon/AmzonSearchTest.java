@@ -5,12 +5,13 @@
 package com.mypage.amazon;
 import org.junit.Test;
 
-public class AmzonSearchTest /*extends Locomotive*/{
+public class AmzonSearchTest{
 
     @Test
     public void testTextExist()
     {
-        AmzonSearch.main("http://amazon.com");
+        String link = "http://amazon.com";
+        AmzonSearch.main(link);
     }
 
 }
