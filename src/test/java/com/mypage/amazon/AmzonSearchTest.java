@@ -10,8 +10,7 @@ public class AmzonSearchTest{
     @Test
     public void testTextExist()
     {
-        String link = "http://amazon.com";
-        AmzonSearch.main(link);
+        String myLink = "http://amazon.com";
+        AmzonSearch.main(myLink);
     }
-
 }
